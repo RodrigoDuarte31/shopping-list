@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Carrinho de Compras </title>
+
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1> Preencha sua lista de compras: </h1>
+
+        <form id="form" action="/add" method="POST">
+        <label for="product1"> Produto: </label>
+            <input type="text" name="product1" id="product1" autocomplete="off">
+        
+            <div id="box" class="box">
+
+            </div>
+        </form>
+        
+        <button id="add" class="add"> <img src="assets/images/add-icon.svg" alt="adicionar"> Adicionar produto </button>
+        <button id="buy" class="buy" type="submit" form="form"> <img src="assets/images/buy-icon.svg" alt="comprar"> Finalizar compra </button>
+    </div>
+
+    <script src="assets/scripts/script.js"></script>
+    
+</body>
+</html>

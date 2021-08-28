@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-image: url('../images/white-ether-background.png');
+}
+
+.container {
+    margin: 2% auto;
+    width: 42%;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #1F2831;
+    margin-bottom: 5%;
+}
+
+label {
+    font-size: 1em;
+    color: #1F2831;
+}
+
+input, .add, .buy {
+    border: none;
+    border-radius: 5px;
+
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+input {
+    width: calc(100% - 6%);
+    margin-top: 2%;
+    
+    opacity: 0.85;
+}
+
+.add, .buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    text-align: center;
+    color: #FBFBFB;
+
+    transition: 0.2s all;
+}
+
+.add {
+    background: #1F2831;
+}
+
+.buy {
+    background: #2BB85A;
+}
+
+.add:hover, .buy:hover {
+    opacity: 0.85;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.25);
+}
+
+img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 2%;
+}
